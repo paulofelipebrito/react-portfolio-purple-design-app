@@ -1,3 +1,4 @@
+import Contact from './components/Contacts/Contact';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Members from './components/Members/Members';
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Home />
       <Members />
+      <Contact />
     </>    
   );
 }
