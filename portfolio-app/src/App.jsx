@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Members from './components/Members/Members';
 import Navbar from './components/Nav/Nav';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <Members />
       <Contact />
+      <Footer />
     </>    
   );
 }
