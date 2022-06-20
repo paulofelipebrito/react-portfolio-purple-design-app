@@ -3,7 +3,7 @@ import './Qualifications.css';
 const Qualifications = () => {
   return(
     <div>
-      <span className="quali-text">My Qualifications</span>
+      <h2 className="quali-text">My Qualifications</h2>
       <div className="qualifications-container">
         <div className="qualification">
           <div className="content html"></div>

@@ -2,7 +2,7 @@ import './Footer.css';
 import { BsMouse } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 import { FaFacebookF } from 'react-icons/fa';
-import { TiSocialDribble } from 'react-icons/ti';
+import { TiSocialDribbble } from 'react-icons/ti';
 import { TiSocialYoutube } from 'react-icons/ti';
 import { TiSocialGithub } from 'react-icons/ti';
 
@@ -28,7 +28,7 @@ const Footer = () => {
         </a>
 
         <a href="#">
-          <TiSocialDribble className="social" />
+          <TiSocialDribbble className="social" />
         </a>
 
         <a href="#">

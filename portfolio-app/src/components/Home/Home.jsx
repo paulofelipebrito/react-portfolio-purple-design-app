@@ -3,21 +3,29 @@ import img from '../props/img2.jpg';
 import {BsMouse} from 'react-icons/bs';
 import { useState } from 'react';
 import Button from '../Button/Button';
+import html from '../props/html.png';
+import css from '../props/css.png';
+import js from '../props/js.jpg'; 
+import bootstrap from '../props/bootstrap.png'; 
+import react from '../props/react.png'; 
+import kotlin from '../props/kotlin.png'; 
+import c from '../props/c-plus-plus.png'; 
+import c2 from '../props/../props/c-sharp.png'; 
 
 const Home = () => {
   const [isActive, setIsActive] = useState(false);
   return(
     <div id="home" className="container home-container">
       <div className="logo">
-        <div className={isActive ? 'main-img active' : 'main-img'} onClick={(prevState) => setIsActive(prevState === true ? false : true)}>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
+        <div className='hover-show'>
+          <div className="circle"/>
+          <div className="circle"/>
+          <div className="circle"/>
+          <div className="circle"/>
+          <div className="circle"/>
+          <div className="circle"/>
+          <div className="circle"/>
+          <div className="circle"/>
         </div>
 
         <img src={img} alt="" />
@@ -32,8 +40,10 @@ const Home = () => {
 
       <h2>
         <span>About Me</span> <br />
-        <p>lorem ipsum dolor sit amet, consectetur adipiscing elorem lorem, sed do eiusmod tempor incididunt ut labore lorem. Ut enim ad
-          lorem ipsum dlorem ipsum dolor SiInternetexplorerlore
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis id
+          quos deserunt, maxime sint sunt tempore quidem ad praesentium itaque,
+          aspernatur, magnam culpa iste adipisci?
         </p>
       </h2>
 

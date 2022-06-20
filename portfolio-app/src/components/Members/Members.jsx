@@ -3,7 +3,7 @@ import './Members.css';
 const Members = () => {
   return(
     <div id="members" className="container members-container">
-      <h1 className="member-text">Members</h1>
+      <h2 className="member-text">Members</h2>
 
       <div className="member member-1">
         <div className="member-img"></div>

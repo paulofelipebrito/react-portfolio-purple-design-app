@@ -2,8 +2,9 @@ import Contact from './components/Contacts/Contact';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Members from './components/Members/Members';
-import Navbar from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
+import Navbar from './components/Nav/Nav';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Navbar />
       <Home />
+      <About />
       <Members />
       <Contact />
       <Footer />

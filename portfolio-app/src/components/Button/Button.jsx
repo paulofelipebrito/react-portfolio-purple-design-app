@@ -2,7 +2,7 @@ import './Button.css';
 
 const Button = () => {
   return (
-    <div className="container button-contain">
+    <div className="container button-container">
       <a href="#about" className="btn pri">
         Learn more
       </a>
